@@ -1,0 +1,26 @@
+{
+  "name": "figma-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-sass": "node-sass -w src/styles/scss/ -o src/styles/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imranovazer/simple-figma-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imranovazer/simple-figma-template/issues"
+  },
+  "homepage": "https://github.com/imranovazer/simple-figma-template#readme",
+  "dependencies": {
+    "sass": "^1.62.0"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

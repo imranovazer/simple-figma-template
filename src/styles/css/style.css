@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Epilogue', sans-serif; }
+
+ul, li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%; }
+
+nav {
+  height: 80px;
+  padding: 0 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2B2B2B; }
+  nav img {
+    cursor: pointer; }
+  nav .left {
+    width: 100%;
+    max-width: 696px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    nav .left .logo {
+      color: white;
+      cursor: pointer; }
+    nav .left .links {
+      display: flex;
+      align-items: center;
+      max-width: 513px;
+      width: 100%;
+      justify-content: space-between;
+      color: white; }
+      nav .left .links a {
+        color: white; }
+
+.chip {
+  width: 100%;
+  max-width: 95px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #1976d3;
+  background-color: white;
+  padding: 15px 70px;
+  color: #1976d3;
+  cursor: pointer;
+  margin-bottom: 15px; }
+
+.todays-pick {
+  width: 100%; }
+  .todays-pick .container {
+    padding: 160px 0 60px 0;
+    display: flex;
+    flex-direction: column; }
+    .todays-pick .container h2 {
+      margin-bottom: 30px;
+      font-weight: 500;
+      font-size: 24px;
+      color: #2B2B2B; }
+    .todays-pick .container img {
+      width: 100%;
+      margin-bottom: 20px; }
+    .todays-pick .container p {
+      color: #2B2B2B;
+      font-weight: 400;
+      font-size: 16px;
+      opacity: 0.4;
+      line-height: 24px;
+      margin-bottom: 20px; }
+    .todays-pick .container .article {
+      max-width: 800px; }
+    .todays-pick .container a {
+      text-decoration: underline;
+      color: #197ede; }
+
+.two-posts {
+  width: 100%; }
+  .two-posts .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .two-posts .container .small-cart {
+      width: 470px; }
+
+.trending-topics .container {
+  padding-top: 100px; }
+  .trending-topics .container h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #2B2B2B;
+    margin-bottom: 30px; }
+  .trending-topics .container .small-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .trending-topics .container .small-cards .small-cart {
+      display: flex;
+      flex-direction: column; }
+      .trending-topics .container .small-cards .small-cart h2 {
+        margin-bottom: 30px;
+        font-weight: 500;
+        font-size: 24px;
+        color: #2B2B2B; }
+      .trending-topics .container .small-cards .small-cart img {
+        width: 100%;
+        margin-bottom: 20px; }
+      .trending-topics .container .small-cards .small-cart p {
+        color: #2B2B2B;
+        font-weight: 400;
+        font-size: 16px;
+        opacity: 0.4;
+        line-height: 24px;
+        margin-bottom: 20px; }
+      .trending-topics .container .small-cards .small-cart .article {
+        max-width: 800px; }
+
+.for-button button {
+  margin: 160px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #1976d3;
+  width: 200px;
+  height: 60px;
+  border-radius: 4px;
+  color: white;
+  font-size: 21pxs;
+  cursor: pointer;
+  letter-spacing: 1px; }
+
+footer {
+  width: 100%; }
+  footer .container {
+    padding: 100px 0; }
